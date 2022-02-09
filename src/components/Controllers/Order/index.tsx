@@ -35,7 +35,7 @@ export function Order({ data }: Props) {
 
       <Content>
         <Header>
-          <Title>Computador Desktop</Title>
+          <Title>{data.description}</Title>
           <MaterialIcons
             name={data.status === "open" ? "hourglass-empty" : "check-circle"}
             size={24}
@@ -54,7 +54,7 @@ export function Order({ data }: Props) {
           <Info>
             <MaterialIcons name="my-location" size={16} color={theme.COLORS.SUBTEXT} />
             <Label>
-              402345
+              {data.patrimony}
             </Label>
           </Info>
         </Footer>
