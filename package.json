@@ -12,6 +12,7 @@
     "@react-native-firebase/app": "^14.3.1",
     "@react-native-firebase/auth": "^14.3.1",
     "@react-native-firebase/firestore": "^14.3.1",
+    "@react-native-firebase/messaging": "^14.3.2",
     "@react-navigation/native": "^6.0.6",
     "@react-navigation/native-stack": "^6.2.5",
     "expo": "~44.0.2",
